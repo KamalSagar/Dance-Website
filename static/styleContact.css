@@ -1,0 +1,36 @@
+.formContainer{
+    height: 650px;
+}
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.myform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 0px;
+}
+
+.myinput{
+    padding: 5px;
+    margin: 5px;
+    width: 40%;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background: lightsteelblue
+}
+
+.btn{
+    background: rgb(54, 54, 77);
+    color: white;
+    padding: 4px 14px;
+    margin: 10px;
+    border-radius: 7px;
+    border: none;
+    font-size: 17px;
+}

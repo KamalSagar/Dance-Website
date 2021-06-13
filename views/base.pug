@@ -1,0 +1,20 @@
+doctype html
+html
+    head
+        title harry dance academy
+        block scripts
+        block style
+    body
+        nav#navbar
+            ul
+                div#logo 
+                    img(src="./static/logo/logo.png", alt="")
+                    | hda
+                li #[a(href="/") Home] 
+                li #[a(href="/") About]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+                li #[a(href="/contact") Contact Us]
+        block content
+        footer#footer 
+            | Copyright &copy; 2019 danceAcademy.com | All right reserved

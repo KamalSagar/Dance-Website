@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0 14px;
+}
+
+#logo img{
+    height: 40px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: darkturquoise;
+    padding: 13px 14px;
+    font-family: 'Reggae One', cursive;
+    /* height: 49px; */
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: bisque;
+    padding: 17px 30px;
+    background-color: darkturquoise;
+}
+
+#navbar li a:hover{
+    color: rgb(117, 69, 13);
+    background-color: rgb(2, 137, 139);
+}
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("../static/bg2.jpg");
+    background-color: cornflowerblue;
+    height: 300px;
+    font-size: 35px;
+}
+
+#introSection div.small{
+    font-size: 1rem;
+}
+
+#missionSection{
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+    /* background-color: rgb(150, 175, 175); */
+    border-radius: 20px;
+}
+
+#missionSection h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 200px;
+    width: 30%;
+    margin: 4px 10px;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 126px;
+    padding: 18px 14px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+#sponsorSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: darkcyan;
+    height: 300px;
+    font-size: 35px;
+}
+
+.sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.sponsors img{
+    height: inherit;
+    padding: 0px 24px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding-top: 4px;
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+}
